@@ -42,6 +42,7 @@ public class RemoveLastKthNode2 {
         return head;
     }
 
+	//输出数组
     public static void printNode(DoubleNode node){
         while(node != null){
             System.out.print(node.value + " ");
